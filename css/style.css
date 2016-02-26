@@ -1,20 +1,20 @@
-.red {
+.my_red {
     color: red;
 }
-.blue {
+.my_blue {
     color: blue;
     font-size: 3em;
 }
-.shadow {
+.my_shadow {
     text-shadow: 5px 5px 2px gray;
 }
-.warning {
+.my_warning {
     font-weight: bold;
     text-decoration: underline;
 }
-.pictures {
+.my_pictures {
     max-width: 100%;
 }
-.block {
+.my_block {
     display: block;
 }

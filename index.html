@@ -4,16 +4,43 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>happiness!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/pc.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-    <h1 class="">My favourite place</h1>
+<body class="container">
+
+    <div class="jumbotron">
+        <h1 class="">My favourite place</h1>
+    </div>
+
+    <nav class="navbar navbar-default">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="#">beer</a></li>
+                <li><a href="#">pizza</a></li>
+                <li><a href="#">burger</a></li>
+                <li><a href="#">hotdog</a></li>
+            </ul>
+        </div>
+    </nav>
     <p class="">...for fishing and beer</p>
     <a href="http://www.atlantamagazine.com/20-best-burgers/">burgers - nom!</a>
-    <button class="blue button">press to show or hide</button>
-    <img class="pictures block" src="images/polperro.jpg" alt="harbor photo">
+    <button id="picture_button" class="btn btn-primary">press to show or hide</button>
+    <img class="my_pictures my_block" src="images/polperro.jpg" alt="harbor photo">
+
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="js/javascript.js"></script>
 </body>
 
 </html>
