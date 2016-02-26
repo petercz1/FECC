@@ -1,0 +1,14 @@
+.red {
+    color: red;
+}
+.blue {
+    color: blue;
+    font-size: 3em;
+}
+.shadow {
+    text-shadow: 5px 5px 2px gray;
+}
+.warning {
+    font-weight: bold;
+    text-decoration: underline;
+}
