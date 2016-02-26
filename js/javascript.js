@@ -1,3 +1,5 @@
+/*global $ */
+
 console.log("my script has loaded");
 
 $('#picture_button').click(swap_picture);
